@@ -14,10 +14,11 @@
 {
     <p>
         <small>Find by Course Title</small> @Html.TextBox("searchTitle", ViewBag.CurrentFilter as string, ViewBag.CurrentFilter2 as string, ViewBag.CurrentFilter3 as string)
-        <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+        @*<input class="btn btn-info btn-sm" type="submit" value="Search" /> |*@
         <small>Find by Name</small> @Html.TextBox("searchName", ViewBag.CurrentFilter2 as string, ViewBag.CurrentFilter as string, ViewBag.CurrentFilter3 as string)
-        <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
-        <small>Find by Grade</small> @Html.TextBox("searchGrade", ViewBag.CurrentFilter3 as string, ViewBag.CurrentFilter as string, ViewBag.CurrentFilter2 as string)
+        @*<input class="btn btn-info btn-sm" type="submit" value="Search" /> |*@
+        <small>Find by Grade</small> @Html.DropDownList("searchGrade", new SelectList(Enum.GetValues(typeof(ContosoUniversity.Models.Grade))),
+            "Select Grade")
         <input class="btn btn-info btn-sm" type="submit" value="Search" />
     </p>
     <a href="@Url.Action("Index")">Back To Full List</a>

@@ -17,7 +17,7 @@ namespace ContosoUniversity.Controllers
         private SchoolContext db = new SchoolContext();
 
         // GET: Student
-        public ViewResult Index(string sortOrder, string currentFilter, string currentFilter2, string currentFilter3, string searchString, string searchLastName, string startdate, int? page)
+        public ViewResult Index(string sortOrder, string currentFilter, string currentFilter2, DateTime? currentFilter3, string searchString, string searchLastName, DateTime? startdate, int? page)
         {
             ViewBag.CurrentSort = sortOrder;
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -66,9 +66,9 @@ namespace ContosoUniversity.Controllers
                 students = students.Where(s => s.LastName.Contains(searchLastName));
             }
 
-            if (!String.IsNullOrEmpty(startdate))
+            if (startdate != null)
             {
-                students = students.Where(s => s.EnrollmentDate.ToString().Contains(startdate));
+                students = students.Where(s => s.EnrollmentDate == startdate);
             }  
 
             switch (sortOrder)
