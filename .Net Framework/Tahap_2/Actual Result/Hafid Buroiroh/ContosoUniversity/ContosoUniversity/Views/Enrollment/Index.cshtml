@@ -1,0 +1,73 @@
+﻿@model PagedList.IPagedList<ContosoUniversity.Models.Enrollment>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Enrollments";
+}
+
+<h2>Enrollments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Enrollment", FormMethod.Get))
+{
+    <div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
+        <div>
+            Find by Title: @Html.TextBox("SearchCourse", ViewBag.CurrentFilter as string)
+            <input class="btn btn-info btn-sm" type="submit" value="Search" />
+        </div>
+        <div>
+            Find by Name: @Html.TextBox("SearchName", ViewBag.CurrentFiltered as string)
+            <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+        </div>
+        <div>
+            Find by Grade: @Html.TextBox("SearchGrade", ViewBag.CurrentFilters as string)
+            <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+        </div>
+    </div>
+    <a>@Html.ActionLink("Back to Full List", "Index", "Enrollment")</a>
+}
+<table class="table table-bordered" border="1">
+    <tr>
+        <th>
+            @Html.ActionLink("Title", "Index", new { sortOrder = ViewBag.TitleSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Students Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFiltered = ViewBag.CurrentFiltered })
+        </th>
+        <th>
+            @Html.ActionLink("Grade", "Index", new { sortOrder = ViewBag.GradeSortParm, currentFilters = ViewBag.CurrentFilters })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.FirstMidName)
+                @Html.DisplayFor(modelItem => item.Student.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.EnrollmentID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.EnrollmentID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.EnrollmentID })
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
