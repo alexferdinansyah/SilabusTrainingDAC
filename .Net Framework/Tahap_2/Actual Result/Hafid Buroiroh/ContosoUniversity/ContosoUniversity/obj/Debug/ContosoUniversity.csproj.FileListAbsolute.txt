@@ -89,3 +89,45 @@ D:\Application\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
 D:\Application\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
 D:\Application\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
 D:\Application\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.AssemblyReference.cache
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+D:\GIT\SilabusTrainingDAC\.Net Framework\Tahap_2\Actual Result\Hafid Buroiroh\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
