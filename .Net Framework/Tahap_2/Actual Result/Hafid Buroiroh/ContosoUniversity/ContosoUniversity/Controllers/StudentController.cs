@@ -10,6 +10,7 @@ using System.Web.Mvc;
 using ContosoUniversity.DAL;
 using ContosoUniversity.Models;
 
+
 namespace ContosoUniversity.Controllers
 {
     public class StudentController : Controller
@@ -18,13 +19,15 @@ namespace ContosoUniversity.Controllers
 
         // GET: Student
 
-        public ViewResult Index(string sortOrder, string currentFilter,string currentFiltered, string searchString, string searchDate, int? page)
+        public ViewResult Index(string sortOrder, string currentFilter,DateTime? currentFiltered, string searchString, DateTime? searchDate, int? page)
         {
             ViewBag.CurrentSort = sortOrder;
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewBag.SortParm = String.IsNullOrEmpty(sortOrder) ? "name_asc" : "";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
             ViewBag.LastSortParm = String.IsNullOrEmpty(sortOrder) ? "last_desc" : "last";
+
+            Student model = new Student();
 
             if (searchString != null)
             {
@@ -54,9 +57,9 @@ namespace ContosoUniversity.Controllers
                                        || s.FirstMidName.Contains(searchString));
             }
 
-            if (!String.IsNullOrEmpty(searchDate))
+            if (searchDate != null)
             {
-                students = students.Where(s => s.EnrollmentDate.ToString().Contains(searchDate));
+                students = students.Where(s => s.EnrollmentDate == searchDate);
             }
             switch (sortOrder)
             {

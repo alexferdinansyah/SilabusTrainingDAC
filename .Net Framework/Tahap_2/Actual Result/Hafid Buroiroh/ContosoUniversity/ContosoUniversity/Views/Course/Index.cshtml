@@ -16,14 +16,12 @@
     <div style="display: flex; justify-content:space-between; margin-bottom:2rem; gap:2rem;">
         <div>
             Find by ID: @Html.TextBox("SearchID", ViewBag.CurrentFilter as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" />
         </div>
         <div>
             Find by Title: @Html.TextBox("SearchTitle", ViewBag.CurrentFilter as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" />
         </div>
         <div>
-            Find by Credit: @Html.TextBox("SearchCredit", ViewBag.CurrentFilter as string)
+            Find by Credit: @Html.TextBox("SearchCredit", ViewBag.CurrentFilter as string, new { type = "number" })
             <input class="btn btn-info btn-sm" type="submit" value="Search" />
         </div>
     </div> <a>@Html.ActionLink("Back to Full List", "Index", "Course")</a>

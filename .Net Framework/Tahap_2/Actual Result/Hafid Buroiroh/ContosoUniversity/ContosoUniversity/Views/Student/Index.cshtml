@@ -16,11 +16,9 @@
     <div  style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
         <div>
             Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" />
-            <a>@Html.ActionLink("Back to Full List", "Index", "Student")</a>
         </div>
         <div>
-            Find by Date: @Html.TextBox("SearchDate", ViewBag.CurrentFiltered as string)
+            Find by Date: @Html.TextBox("SearchDate", ViewBag.CurrentFiltered as string, new { type = "date" })
             <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
             <a>@Html.ActionLink("Back to Full List", "Index", "Student")</a>
         </div>

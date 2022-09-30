@@ -17,15 +17,15 @@
     <div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
         <div>
             Find by Title: @Html.TextBox("SearchCourse", ViewBag.CurrentFilter as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" />
         </div>
         <div>
             Find by Name: @Html.TextBox("SearchName", ViewBag.CurrentFiltered as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
         </div>
         <div>
-            Find by Grade: @Html.TextBox("SearchGrade", ViewBag.CurrentFilters as string)
-            <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+            Find by Grade:@Html.DropDownList("SearchGrade",
+                     new SelectList(Enum.GetValues(typeof(ContosoUniversity.Models.Grade))),
+                     "Select Grade")
+            <input class="btn btn-info btn-sm" type="submit" value="Search" />
         </div>
     </div>
     <a>@Html.ActionLink("Back to Full List", "Index", "Enrollment")</a>
