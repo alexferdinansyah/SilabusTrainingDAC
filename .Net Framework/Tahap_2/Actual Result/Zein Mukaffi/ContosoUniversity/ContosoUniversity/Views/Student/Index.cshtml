@@ -14,9 +14,9 @@
 {
     <p>
         <small>Find By First Name</small> @Html.TextBox("searchString", ViewBag.CurrentFilter as string, ViewBag.CurrentFilter2 as string, ViewBag.CurrentFilter3 as string)
-        <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+        @*<input class="btn btn-info btn-sm" type="submit" value="Search" /> |*@
         <small>Find By Last Name</small> @Html.TextBox("searchLastName", ViewBag.CurrentFilter2 as string, ViewBag.CurrentFilter as string, ViewBag.CurrentFilter3 as string)
-        <input class="btn btn-info btn-sm" type="submit" value="Search" /> |
+        @*<input class="btn btn-info btn-sm" type="submit" value="Search" /> |*@
         <small>Search Date</small> @Html.TextBox("startdate", ViewBag.CurrentFilter3 as DateTime?, new { type = "date" })
         <input class="btn btn-info btn-sm" type="submit" value="Search" />
     </p>
