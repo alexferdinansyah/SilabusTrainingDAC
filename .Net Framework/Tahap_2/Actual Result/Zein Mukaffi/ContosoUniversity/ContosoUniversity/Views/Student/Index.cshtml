@@ -48,7 +48,7 @@
                 @Html.DisplayFor(modelItem => item.LastName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                @Convert.ToDateTime(item.EnrollmentDate).ToString("MM/dd/yyyy")
             </td>
             <td>
                 <a href="@Url.Action("Edit", new { id=item.ID })" class="btn btn-warning btn-sm">Edit</a>
